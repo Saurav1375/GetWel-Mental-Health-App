@@ -1,6 +1,6 @@
 # GetWel+
 
-<img src="app/src/main/res/drawable/getwel_logo.png" alt="GetWel+ Logo" width="250">
+<img src="app/src/main/res/drawable/getwel_logo (1).png" alt="GetWel+ Logo" width="250">
 
 GetWel+ is a comprehensive health and wellness mobile application focused on reducing the stigma around mental health. With a range of features including mood tracking, stress assessment, and relaxation tools, GetWel+ empowers users to manage their mental health proactively.
 
