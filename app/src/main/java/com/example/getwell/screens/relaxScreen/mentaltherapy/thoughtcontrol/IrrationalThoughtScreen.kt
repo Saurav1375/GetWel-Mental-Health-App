@@ -43,7 +43,7 @@ fun IrrationalThoughtScreen(
     val context = LocalContext.current
     val scaffoldState = rememberScaffoldState()
 
-    val geminiService = GeminiService("AIzaSyDBcqnegXZr8g0h5ED7kKZ4Nc_lraS_jIQ")
+    val geminiService = GeminiService(context.getString(R.string.gemini_key))
     val viewModel = ThoughtViewModel(geminiService)
     androidx.compose.material.Scaffold(
         scaffoldState = scaffoldState,

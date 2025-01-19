@@ -67,7 +67,7 @@ fun GuidedImageryScreen(
 
     textToSpeech.setSpeechRate(0.7f)
 
-    val geminiAiService = GeminiAiService("AIzaSyDBcqnegXZr8g0h5ED7kKZ4Nc_lraS_jIQ")
+    val geminiAiService = GeminiAiService(context.getString(R.string.gemini_key))
     val imageryViewModel = GuidedImageryViewModel(geminiAiService)
     imageryViewModel.initTextToSpeech(textToSpeech)
 

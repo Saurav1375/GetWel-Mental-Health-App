@@ -1111,7 +1111,7 @@ fun Navigation(
             TodaysRecommendationScreen(
                 navController = navController,
                 viewModel = stressViewModel,
-                repository = RecommendationRepository("AIzaSyDBcqnegXZr8g0h5ED7kKZ4Nc_lraS_jIQ")
+                repository = RecommendationRepository(context.getString(R.string.gemini_key))
             )
         }
 
